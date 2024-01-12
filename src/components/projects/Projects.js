@@ -102,9 +102,9 @@ export default function Projects() {
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
                       <a
-                        // href={
-                        //   "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
-                        // }
+                        href={
+                        "https://github.com/Vishnu-017"
+                        }
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -221,9 +221,9 @@ export default function Projects() {
                     <img src={pp} alt={pp} />
                     <div className="project--showcaseBtn">
                       <a
-                        // href={
-                        //   "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        // }
+                        href={
+                          "https://github.com/https://github.com/Vishnu-017/Personal-Portfolio"
+                        }
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}

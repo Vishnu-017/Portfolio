@@ -5,7 +5,6 @@ import axios from "axios";
 import { useState } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 import { FiPhone, FiAtSign } from "react-icons/fi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
 
 export default function Contactus() {
   const [formData, setFormData] = useState(new FormData());
@@ -137,10 +136,8 @@ export default function Contactus() {
                       </div>
                       <p style={{ color: "#fbd9ad" }}>+91 6385553279</p>
                     </a>
-                    <a
-          
-                      className="personal-details"
-                    >
+                    {/* <a href="#" className="personal-details">
+                    
                       <div className="personal-details">
                         <div className="detailsIcon">
                           <HiOutlineLocationMarker />
@@ -150,7 +147,7 @@ export default function Contactus() {
                           Tamil Nadu, India 
                         </p>
                       </div>
-                    </a>
+                    </a> */}
                   </div>
                   <div className="contact-map">
                     <iframe
