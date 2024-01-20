@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import nyc from "../../images/img1.png";
 import ci from "../../images/img3.webp";
 import hd from "../../images/hd.png";
+import ir from "../../images/inforover1.jpg";
 import pp from "../../images/img4.jpg";
 import eco from "../../images/img5.jpg";
 import meal from "../../images/img6.jpg";
@@ -91,6 +92,66 @@ export default function ProjectPage() {
                                 }}
                               >
                                 Tensorflow | PaddleOCR | OpenCV | Streamlit | SQL
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  InfoRover
+                                </h5>
+                                <img src={ir} alt={ir} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/Vishnu-017/InfoRover"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  InfoRover is a PDF analysis tool designed to extract text, images, and links from uploaded PDF files. The workflow includes a character text splitter using Langchain, OpenAI embeddings and FAISS
+                                  operations to enhance search capabilities. Users can input prompts, and the system generates relevant outputs based on similarity search
+
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Langchain | OpenAI | FAISS | Streamlit
                               </div>
                             </div>
                           </Fade>
@@ -292,7 +353,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Vishnu-017"
+                                      "https://github.com/Vishnu-017/Personal_Portfolio"
                                     }
                                     target="_blank"
                                     rel="noreferrer"

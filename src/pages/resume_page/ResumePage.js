@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1H29kfY069NuUvVjaQhVjPfqdWIKAafZk/view?usp=drive_link";
+  "https://drive.google.com/file/d/1fXEIMCUgCZotVYkCK0M1GJUOPSYXBukD/view?usp=sharing";
 
 function Resume() {
   const [width, setWidth] = useState(1200);

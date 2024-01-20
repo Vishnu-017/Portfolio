@@ -4,6 +4,7 @@ import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import nyc from "../../images/img1.png";
 import ci from "../../images/img3.webp";
+import ir from "../../images/inforover1.jpg";
 import hd from "../../images/hd.png";
 import pp from "../../images/img4.jpg";
 import { FaCode } from "react-icons/fa";
@@ -216,13 +217,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      InfoRover
                     </h5>
-                    <img src={pp} alt={pp} />
+                    <img src={ir} alt={ir} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/https://github.com/Vishnu-017/Personal-Portfolio"
+                          "https://github.com/Vishnu-017/InfoRover"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -246,9 +247,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      InfoRover is a PDF analysis tool designed to extract text, images, and links from uploaded PDF files. The workflow includes a character text splitter using Langchain, OpenAI embeddings and FAISS
+                      operations to enhance search capabilities. Users can input prompts, and the system generates relevant outputs based on similarity search
+
                     </p>
                   </h6>
                   <div
@@ -259,7 +260,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, React, JavaScript
+                    Langchain | OpenAI | FAISS | Streamlit
                   </div>
                 </div>
               </Fade>

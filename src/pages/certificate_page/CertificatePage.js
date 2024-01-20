@@ -85,6 +85,58 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
+                                  href="https://drive.google.com/file/d/1E_PpKhP28rfW92MqO3Yoj0Dh76PDO8hi/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                      className="logo_img"
+                                      src={ucsc}
+                                      alt={ucsc}
+                                    />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Internship @ Global Knowledge Technologies
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Generative AI
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
                                   href="https://drive.google.com/file/d/1-F_VW2-DOW0DI9RMdgjBoUhUl-FT7A4s/view?usp=drive_link"
                                   target="_blank"
                                   rel="noopener noreferrer"
