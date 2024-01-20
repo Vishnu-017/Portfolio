@@ -6,7 +6,6 @@ import nyc from "../../images/img1.png";
 import ci from "../../images/img3.webp";
 import ir from "../../images/inforover1.jpg";
 import hd from "../../images/hd.png";
-import pp from "../../images/img4.jpg";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
